@@ -36,7 +36,7 @@ parameters:
   key_name:
     description: Nova keypair name for ssh access to the server
     type: string
-    required: true
+    default: 2014-hop-2048
 
   mysql_pass:
     default: admin
